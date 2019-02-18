@@ -25,7 +25,7 @@ npm install extract-zip -g
 ## JS API
 
 ```js
-var extract = require('extract-zip')
+const extract = require('extract-zip')
 extract(source, {dir: target}, function (err) {
  // extraction is complete. make sure to handle the err
 })
